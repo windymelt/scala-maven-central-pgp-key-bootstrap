@@ -59,6 +59,7 @@ object Gpg {
   def exportPrivateKeyAsBase64(keyName: String, passPhrasePath: os.Path)(using Ox): String = {
     val exportCmd = Seq(
       "gpg",
+      "--armor",
       "--batch",
       "--pinentry-mode",
       "loopback",
