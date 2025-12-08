@@ -1,4 +1,5 @@
-## `scala-pgp-bootstrap`
+## `scala-pgp-bootstrap` [![Sonatype Central](https://maven-badges.sml.io/sonatype-central/dev.capslock/scala-pgp-bootstrap_3/badge.svg)](https://maven-badges.sml.io/sonatype-central/dev.capslock/scala-pgp-bootstrap_3/)
+
 
 Automation tool for generating PGP key for setting up `sbt-ci-release`.
 
