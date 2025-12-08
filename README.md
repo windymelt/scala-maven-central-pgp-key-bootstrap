@@ -3,6 +3,10 @@
 
 Automation tool for generating PGP key for setting up `sbt-ci-release`.
 
+## Prerequisites
+
+- Java 21+ (For Virtual Thread)
+
 ### How to run
 
 Use Coursier.
