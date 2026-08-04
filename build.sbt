@@ -10,13 +10,16 @@ libraryDependencies ++= Seq(
   "io.circe"            %% "circe-parser"  % "0.14.15",
   "io.circe"            %% "circe-generic" % "0.14.15",
 )
+
 libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test
 
 organization := "dev.capslock"
 homepage     := Some(url("https://github.com/windymelt/scala-maven-central-pgp-key-bootstrap"))
+
 licenses     := List(
   "BSD-3-Clause" -> url("https://spdx.org/licenses/BSD-3-Clause.html"),
 )
+
 developers := List(
   Developer(
     "windymelt",
