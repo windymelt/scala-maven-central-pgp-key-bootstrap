@@ -1,5 +1,5 @@
 name         := "scala-pgp-bootstrap"
-scalaVersion := "3.7.4"
+scalaVersion := "3.8.4"
 
 libraryDependencies ++= Seq(
   "tech.neander"        %% "cue4s"         % "0.0.9",
